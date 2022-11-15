@@ -36,7 +36,7 @@ function NavBar() {
                   <Link
                       to='/resume'
                   >
-                      Reusme
+                      Resume
                   </Link>
               </li>
           </ul>
