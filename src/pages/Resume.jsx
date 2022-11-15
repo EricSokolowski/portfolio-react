@@ -1,6 +1,8 @@
 function Resume() {
   return (
-      <h1>Resume</h1>
+      <>
+      <a href='Resume.pdf' download>Download my Resume!</a>
+      </>
   )
 }
 

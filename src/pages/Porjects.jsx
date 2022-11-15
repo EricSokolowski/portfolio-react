@@ -1,6 +1,14 @@
-function Projects() {
+import projects from "../data/projects"
+
+function Projects(p) {
   return (
-      <h1>Projects</h1>
+      <>
+        {projects.map((project, idx) => (
+          <li key={idx}>
+            {project.title}
+          </li>
+        ))}
+      </>
   )
 }
 

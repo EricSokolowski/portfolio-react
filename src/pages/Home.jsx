@@ -1,6 +1,10 @@
+
 function Home() {
   return (
-      <h1>Home</h1>
+    <>
+    <a href="https://imgur.com/HOYgSEE"><img src="https://i.imgur.com/HOYgSEE.jpg" alt="source: imgur.com" /></a>
+    <h2>Software Engineer</h2>
+    </>
   )
 }
 
