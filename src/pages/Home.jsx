@@ -1,10 +1,25 @@
+import styles from './Home.module.css'
 
-function Home() {
+const Home = () => {
   return (
-    <>
-    <a href="https://imgur.com/HOYgSEE"><img src="https://i.imgur.com/HOYgSEE.jpg" alt="source: imgur.com" /></a>
-    <h2>Software Engineer</h2>
-    </>
+    <main>
+      <div className={styles.homeImage}>
+        {/* <img className={styles.profile} src="../../public/profilepic.jpeg" alt="profile" /> */}
+        <div>
+          <div className={styles.titleContainer}>
+            <div id={styles.welcome}>Welcome to my portfolio!</div>
+          </div>
+          <div className={styles.titleContainer}>
+            <div id={styles.name}>Hi, Im Eric Sokolowski.</div>
+          </div>
+          <div className={styles.titleContainer}>
+            <div id={styles.title}>I'm a Software Engineer.</div>
+          </div>
+        </div>
+      </div>
+
+      {/* <About /> */}
+    </main>
   )
 }
 

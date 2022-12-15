@@ -1,0 +1,55 @@
+a{
+  text-decoration: none;
+  color: #254368;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-size: 100%;
+  font-weight: bold;
+  width: 100vw;
+}
+
+li:hover{
+  border-bottom: 2px rgb(40, 45, 114) solid;
+}
+
+a:hover{
+  color: rgb(42, 33, 117);
+}
+
+li{
+  margin: 0 1%;
+}
+
+.navbar{
+  background-color: #395144;
+  height: 7vh;
+  width: 010vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: fixed;
+  top:0;
+}
+
+.resumeLink{
+  border: 2px solid;
+  padding: 5px;
+}
+
+.resumeLink:hover{
+  background-color: #AA8B56;
+  color: white;
+}
+
+@media (min-width:1024px) {
+  ul{
+    justify-content: flex-end;
+  }
+}

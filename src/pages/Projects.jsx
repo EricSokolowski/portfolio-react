@@ -3,9 +3,9 @@ import ProjectsList from "../components/ProjectsList"
 
 function Projects(p) {
   return (
-      <>
+      <main className={StyleSheet.pageContainer}>
         <ProjectsList projects={projects} />
-      </>
+      </main>
   )
 }
 
